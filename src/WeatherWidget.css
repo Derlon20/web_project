@@ -1,0 +1,33 @@
+.weather-widget {
+    background-color: rgba(229, 243, 212, 0.8);
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif;
+  }
+  
+  .weather-widget h2 {
+    font-size: 28px;
+    color: #004AAD;
+  }
+  
+  .weather-widget p {
+    margin: 0.5em 0;
+    font-size: 25px;
+  }
+  
+  .weather-widget .temperature {
+    font-size: 38px;
+    font-weight: bold;
+    color: #004AAD;
+  }
+  
+  .weather-widget .loading,
+  .weather-widget .error {
+    color: #ff0000;
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  

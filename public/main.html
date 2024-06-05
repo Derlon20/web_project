@@ -10,18 +10,22 @@
   <body>
     <div class="background"></div>
     <nav>
-        <a href="./index.html"><img src="logo_s.svg" alt="Club Logo" class="logo"></a>
-        <a href="./index.html">ГОЛОВНА</a>
-        <a href="./collection.html">КОЛЕКЦІЯ</a>
-        <a href="./price.html">ЦІНИ</a>
-        <a href="./rules.html">ПРАВИЛА</a>
-        <a href="./login.html">ВХІД</a>
+        <a href="./main.html"><img src="logo_s.svg" alt="Club Logo" class="logo"></a>
+        <a href="./main.html">Головна</a>
+        <a href="./collection.html">Колекція</a>
+        <a href="./price.html">Ціни</a>
+        <a href="http://localhost:3000/">Бронювання</a>
+        <a href="./rules.html">Правила</a>
+        <a href="./contacts.html">Контакти</a>
+        <a href="./login.html">Вхід</a>
       </nav>
       <table id = 'table2'>
         <thead>
             <tr>
                 
-                <th>Якщо настільні ігри приносять вам радість і захоплення, то клуб настільних ігор «Students Board Games» стане вашим улюбленим острівцем розваг. У нас завжди панує тепла і дружня атмосфера, ми пропонуємо смачний чай, безкоштовний Wi-Fi та величезний вибір настільних ігор. Запрошуємо вас прийти з друзями, родиною або коханими – кожен знайде для себе щось цікаве!</th>
+                <th>Якщо настільна гра – це декілька годин радості і веселощів, то клуб «Ігромаг» має право вважатися фабрикою гарного настрою. :) У нас ви завжди можете розраховувати на затишну атмосферу, смачний чай, wi-fi і, звісно, безліч настільних ігор.
+
+                    Приходьте з друзями, родинами і коханими. Кожен знайде собі щось до смаку!</th>
                 <th><img src="logo_s.svg" alt="Club Logo" class="logo"></th>
             </tr>
         </thead>
@@ -53,12 +57,18 @@
             </tr>
         </tbody>
       </table>
+      <form id="reserveForm">
+        <h1>Форма бронювання</h1>
+        <label for="fname">Ім'я:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Прізвище:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lemail">Email:</label><br>
+        <input type="email" id="lemail" name="lemail"><br>
+        <label for="vday">День відвідування:</label><br>
+        <input type="date" id="vday" name="vday"><br>
+      </form>
 </div>
 <script src="nav.js"></script>
-  <div id="weather-root"></div>
-  <!-- Підключіть React і ваші скрипти -->
-  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
-  <script src="path/to/your/index.js"></script>
 </body>
 </html>

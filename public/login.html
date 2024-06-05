@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Board Games</title>
+</head>
+<body>
+    <div class="background"></div>
+    <nav>
+        <a href="./index.html"><img src="logo_s.svg" alt="Club Logo" class="logo"></a>
+        <a href="./index.html">ГОЛОВНА</a>
+        <a href="./collection.html">КОЛЕКЦІЯ</a>
+        <a href="./price.html">ЦІНИ</a>
+        <a href="./rules.html">ПРАВИЛА</a>
+        <a href="./login.html">ВХІД</a>
+      </nav>
+
+    <form id="loginForm">
+        <h1>Login</h1>
+        <label for="usernamelogin">Email</label><br>
+        <input type="text" id="usernamelogin" name="usernamelogin" required><br>
+        <label for="passwordlogin">Password</label><br>
+        <input type="password" id="passwordlogin" name="passwordlogin" required><br>
+        <span id="usernameError" class="error"></span><br>
+        <span id="passwordError" class="error"></span><br>
+        <button type="button" id="loginButton">Login</button>
+    </form>
+
+    <form id="signupForm">
+        <h1>Sign Up</h1>
+        <label for="username">Email</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="repeatPassword">Repeat password</label><br>
+        <input type="password" id="repeatPassword" name="repeatPassword"><br>
+        <button type="button" id="signupButton">Sign up</button>
+    </form>
+
+    <script src="nav.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
